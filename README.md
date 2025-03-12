@@ -18,6 +18,7 @@ Gantilah `nama_file` dengan nama file yang ingin Anda tambahkan.
 ```bash
 git commit -m "pesan-commit"
 ```
+Commit digunakan untuk menyimpan perubahan secara lokal dengan pesan deskriptif. Pastikan mengganti `"pesan-commit"` dengan pesan yang lebih jelas mengenai perubahan yang dilakukan. Pesan commit yang baik membantu dalam memahami sejarah perubahan proyek.
 
 ### 3. Mengunggah Perubahan ke Repository Remote
 ```bash
