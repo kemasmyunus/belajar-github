@@ -38,12 +38,13 @@ Perintah ini menampilkan informasi tentang perubahan yang belum di-commit dan st
 ```bash
 git log --oneline
 ```
-
+Menampilkan daftar commit dalam format singkat untuk memudahkan tracking perubahan. Setiap commit ditampilkan dalam satu baris dengan hash commit dan pesan commit.
 
 ### Mengambil Perubahan dari Remote Repository
 ```bash
 git pull origin main
 ```
+Digunakan untuk mengambil update terbaru dari branch `main` di repository remote dan menyelaraskannya dengan lokal. Ini memastikan bahwa Anda memiliki versi terbaru dari kode sebelum melakukan perubahan lebih lanjut.
 
 Dengan memahami perintah-perintah dasar ini, Anda bisa lebih efisien dalam mengelola proyek menggunakan Git. 🚀
 
