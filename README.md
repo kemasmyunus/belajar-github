@@ -24,7 +24,7 @@ Commit digunakan untuk menyimpan perubahan secara lokal dengan pesan deskriptif.
 ```bash
 git push -u origin main
 ```
-
+Perintah ini mengirimkan commit ke repository GitHub pada branch `main`. Jika menggunakan branch lain, gantilah `main` dengan nama branch yang sesuai. Opsi `-u` digunakan untuk menetapkan branch upstream, sehingga pada push berikutnya cukup menggunakan `git push`.
 
 ## Perintah Tambahan
 
@@ -32,7 +32,7 @@ git push -u origin main
 ```bash
 git status
 ```
-
+Perintah ini menampilkan informasi tentang perubahan yang belum di-commit dan status file dalam repository. Ini membantu Anda untuk melihat apa yang telah diubah dan apa yang masih perlu di-commit.
 
 ### Melihat Log Commit
 ```bash
