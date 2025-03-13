@@ -72,3 +72,11 @@ git branch
 ```
 Menampilkan daftar semua branch yang ada di repository lokal. Branch yang aktif akan ditandai dengan tanda bintang (*).
 
+### Membatalkan Perubahan di Staging Area
+```bash
+git reset nama_file
+```
+Perintah ini digunakan untuk menghapus file dari staging area, sehingga perubahan pada file tersebut tidak akan di-commit. Gantilah `nama_file` dengan nama file yang ingin dihapus dari staging area.
+
+Dengan menambahkan perintah-perintah lanjutan ini, Anda akan memiliki pemahaman yang lebih mendalam tentang cara mengelola proyek menggunakan Git. 🚀
+
