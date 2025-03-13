@@ -66,3 +66,9 @@ git branch -d nama-branch
 ```
 Perintah ini menghapus branch yang sudah tidak diperlukan. Gantilah `nama-branch` dengan nama branch yang ingin dihapus. Gunakan opsi `-D` untuk memaksa penghapusan branch yang belum di-merge.
 
+### Melihat Daftar Branch
+```bash
+git branch
+```
+Menampilkan daftar semua branch yang ada di repository lokal. Branch yang aktif akan ditandai dengan tanda bintang (*).
+
