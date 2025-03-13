@@ -46,5 +46,11 @@ git pull origin main
 ```
 Digunakan untuk mengambil update terbaru dari branch `main` di repository remote dan menyelaraskannya dengan lokal. Ini memastikan bahwa Anda memiliki versi terbaru dari kode sebelum melakukan perubahan lebih lanjut.
 
-Dengan memahami perintah-perintah dasar ini, Anda bisa lebih efisien dalam mengelola proyek menggunakan Git. 🚀
+## Perintah Lanjutan
+
+### Membuat Branch Baru
+```bash
+git checkout -b nama-branch
+```
+Perintah ini digunakan untuk membuat branch baru dan langsung berpindah ke branch tersebut. Gantilah `nama-branch` dengan nama branch yang diinginkan.
 
