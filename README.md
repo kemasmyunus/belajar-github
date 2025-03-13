@@ -54,3 +54,9 @@ git checkout -b nama-branch
 ```
 Perintah ini digunakan untuk membuat branch baru dan langsung berpindah ke branch tersebut. Gantilah `nama-branch` dengan nama branch yang diinginkan.
 
+### Menggabungkan Branch
+```bash
+git merge nama-branch
+```
+Digunakan untuk menggabungkan perubahan dari branch lain ke branch saat ini. Pastikan Anda berada di branch yang ingin digabungkan, lalu gantilah `nama-branch` dengan nama branch yang akan digabungkan.
+
