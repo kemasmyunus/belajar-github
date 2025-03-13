@@ -60,3 +60,9 @@ git merge nama-branch
 ```
 Digunakan untuk menggabungkan perubahan dari branch lain ke branch saat ini. Pastikan Anda berada di branch yang ingin digabungkan, lalu gantilah `nama-branch` dengan nama branch yang akan digabungkan.
 
+### Menghapus Branch
+```bash
+git branch -d nama-branch
+```
+Perintah ini menghapus branch yang sudah tidak diperlukan. Gantilah `nama-branch` dengan nama branch yang ingin dihapus. Gunakan opsi `-D` untuk memaksa penghapusan branch yang belum di-merge.
+
