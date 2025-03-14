@@ -97,3 +97,10 @@ Perintah ini digunakan untuk mengembalikan file yang telah diubah ke keadaan seb
 git diff commit1 commit2
 ```
 Perintah ini digunakan untuk melihat perbedaan antara dua commit. Gantilah `commit1` dan `commit2` dengan hash commit yang ingin dibandingkan.
+
+### Mengubah Pesan Commit Terakhir
+```bash
+git commit --amend -m "pesan-commit-baru"
+```
+Perintah ini digunakan untuk mengubah pesan commit terakhir. Gantilah `"pesan-commit-baru"` dengan pesan commit yang baru.
+
