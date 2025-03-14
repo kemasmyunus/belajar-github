@@ -91,3 +91,9 @@ Perintah ini digunakan untuk menghapus file dari repository dan staging area. Ga
 git checkout -- nama_file
 ```
 Perintah ini digunakan untuk mengembalikan file yang telah diubah ke keadaan sebelumnya (sebelum diubah). Gantilah `nama_file` dengan nama file yang ingin dikembalikan.
+
+### Melihat Perbedaan Antar Commit
+```bash
+git diff commit1 commit2
+```
+Perintah ini digunakan untuk melihat perbedaan antara dua commit. Gantilah `commit1` dan `commit2` dengan hash commit yang ingin dibandingkan.
