@@ -78,5 +78,10 @@ git reset nama_file
 ```
 Perintah ini digunakan untuk menghapus file dari staging area, sehingga perubahan pada file tersebut tidak akan di-commit. Gantilah `nama_file` dengan nama file yang ingin dihapus dari staging area.
 
-Dengan menambahkan perintah-perintah lanjutan ini, Anda akan memiliki pemahaman yang lebih mendalam tentang cara mengelola proyek menggunakan Git. 🚀
+## Materi Tambahan
 
+### Menghapus File dari Repository
+```bash
+git rm nama_file
+```
+Perintah ini digunakan untuk menghapus file dari repository dan staging area. Gantilah `nama_file` dengan nama file yang ingin dihapus.
