@@ -104,3 +104,11 @@ git commit --amend -m "pesan-commit-baru"
 ```
 Perintah ini digunakan untuk mengubah pesan commit terakhir. Gantilah `"pesan-commit-baru"` dengan pesan commit yang baru.
 
+### Menghapus Commit Terakhir
+```bash
+git reset --hard HEAD~1
+```
+Perintah ini digunakan untuk menghapus commit terakhir dan mengembalikan repository ke keadaan sebelum commit tersebut.
+
+Dengan menambahkan materi tambahan ini, Anda akan memiliki pemahaman yang lebih komprehensif tentang cara mengelola proyek menggunakan Git. 🚀
+
