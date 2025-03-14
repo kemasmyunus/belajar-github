@@ -85,3 +85,9 @@ Perintah ini digunakan untuk menghapus file dari staging area, sehingga perubaha
 git rm nama_file
 ```
 Perintah ini digunakan untuk menghapus file dari repository dan staging area. Gantilah `nama_file` dengan nama file yang ingin dihapus.
+
+### Mengembalikan File ke Keadaan Sebelumnya
+```bash
+git checkout -- nama_file
+```
+Perintah ini digunakan untuk mengembalikan file yang telah diubah ke keadaan sebelumnya (sebelum diubah). Gantilah `nama_file` dengan nama file yang ingin dikembalikan.
