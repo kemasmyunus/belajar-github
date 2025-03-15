@@ -128,3 +128,11 @@ git push origin v1.0
 ```
 Perintah ini digunakan untuk mengunggah tag `v1.0` ke repository remote.
 
+### Menghapus Tag dari Remote
+```bash
+git push origin :refs/tags/v1.0
+```
+Perintah ini digunakan untuk menghapus tag `v1.0` dari repository remote.
+
+Dengan menambahkan materi tambahan ini, Anda akan memiliki pemahaman yang lebih komprehensif tentang cara mengelola proyek menggunakan Git. 🚀
+
