@@ -121,3 +121,10 @@ Perintah ini digunakan untuk membuat tag dengan nama `v1.0` dan pesan "versi 1.0
 git tag -d v1.0
 ```
 Perintah ini digunakan untuk menghapus tag dengan nama `v1.0`.
+
+### Mengunggah Tag ke Remote
+```bash
+git push origin v1.0
+```
+Perintah ini digunakan untuk mengunggah tag `v1.0` ke repository remote.
+
