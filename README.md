@@ -110,5 +110,9 @@ git reset --hard HEAD~1
 ```
 Perintah ini digunakan untuk menghapus commit terakhir dan mengembalikan repository ke keadaan sebelum commit tersebut.
 
-Dengan menambahkan materi tambahan ini, Anda akan memiliki pemahaman yang lebih komprehensif tentang cara mengelola proyek menggunakan Git. 🚀
+### Membuat Tag
+```bash
+git tag -a v1.0 -m "versi 1.0"
+```
+Perintah ini digunakan untuk membuat tag dengan nama `v1.0` dan pesan "versi 1.0". Tag digunakan untuk menandai titik penting dalam sejarah proyek.
 
