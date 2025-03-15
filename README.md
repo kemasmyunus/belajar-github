@@ -116,3 +116,8 @@ git tag -a v1.0 -m "versi 1.0"
 ```
 Perintah ini digunakan untuk membuat tag dengan nama `v1.0` dan pesan "versi 1.0". Tag digunakan untuk menandai titik penting dalam sejarah proyek.
 
+### Menghapus Tag
+```bash
+git tag -d v1.0
+```
+Perintah ini digunakan untuk menghapus tag dengan nama `v1.0`.
